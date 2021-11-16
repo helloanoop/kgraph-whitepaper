@@ -60,7 +60,6 @@ Each graph has a set of pages, and each page has a title with a set of blocks, a
   description: "Decentralised knowledge graphs",
   topics: ["ethereum", "blockchain", "pkm"],
   pages: [{
-    id: 1,
     uid: "L9jk9XR8ht67ddi6B-Y78"
     title: 'The Soverign Individual',
     icon: null,
