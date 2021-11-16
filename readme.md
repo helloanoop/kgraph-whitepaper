@@ -133,7 +133,7 @@ Also, in order for the network to gain traction, we also need to incentivize ear
 - For the first 1000 User Actions, the graph creator gets 100 KNOW Coins and the user gets 20 KNOW Coins.
 - After this, until 10000 User Actions, the graph creator gets 50 KNOW Coins and the user gets 10 KNOW Coins
 - After this, until 100000 User Actions, the graph creator gets 10 KNOW Coins and the user gets 2 KNOW Coins
-- And then onwards, thegraph creator gets 5 KNOW Coins and the user gets 1 KNOW Coins
+- And then onwards, the graph creator gets 5 KNOW Coins and the user gets 1 KNOW Coins
 
 My hope is that, as the network grows, the Coins would become more valuable, which in turn would lead to result more people contributing to the decentralised knowledge graph network. Its evident that the max value of the coin every 6 coins will never be greater than the transaction fees on the polygon network.
 
@@ -163,9 +163,11 @@ Whenever the user reloads the graph on the kgraph explorer, we would not want to
 
 ### A note on Inline Code Execution and Plugins
 *Inline Code execution*
+
 kgraphs are public, and people will explore graphs on the browser, its a security threat to have the graphs execute arbitrary piece of code on your browser. But nothing stops the community from building apps that allow inline javascript execution. This is in alignment with the philosophy of kgraph having a small core, and allow the user to have the freedom to use the tools of their choice. kgraph aims to define the protocol for accessing the graph and define the structure of the graph, and leave the rest for the user to choose.
 
-* Plugins*
+*Plugins*
+
 Since the kgraph is going to be decentralised, tools/apps could be independently developed to visualise and gather more insights from the graphs. The kgraph explorer (magellan) is likely to remain simple and minimalist and very text heavy.
 
 ### Open Source
