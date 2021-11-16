@@ -57,10 +57,10 @@ Here is how the graph metadata would look like.
 | graphs   | The graphs belongining to the user        |
 | graphs.name   | The name of the graph (unique under user)       |
 | graphs.location   | Where the graph is hosted (can be Github / IPFS / any cloud provider)        |
-| graphs.topic   | An arry of topics of the graph       |
-| graphs.stars   | Arryd of eth addresses of the users who have starred the graph     |
-| graphs.likes   | An array containing likes of the pages in thr graph    |
-| graphs.likes.uid   | uid of the page being liked     |
+| graphs.topic   | An array of topics of the graph       |
+| graphs.stars   | Array of eth addresses of the users who have starred the graph     |
+| graphs.likes   | An array containing likes of the pages in the graph    |
+| graphs.likes.uid   | uid of the page being liked under the graph     |
 | graphs.likes.address   | eth address of the user who liked the page in the graph    |
 
 ### Graph Data Structure
@@ -100,19 +100,19 @@ Each graph has a set of pages, and each page has a title with a set of blocks, a
 | version      | The version of the kgraph data model       |
 | description      | The kgraph description       |
 | topics      | The kgraph topics      |
-| pages      | The pages in the kgraph      |
+| pages      | An array of pages in the kgraph      |
 | pages.uid      | The uid of the page (unique under the graph)      |
-| pages.title      | The page title)      |
+| pages.title      | The page title      |
 | pages.icon      | The page icon (unicode emoji or url))      |
-| pages.cover      | The page cover url     |
-| pages.outline      | Wether the page is an outliner)    |
+| pages.cover      | The page cover image url     |
+| pages.outline      | whether the page is an outliner   |
 | pages.created_at      | Creation time of the page     |
-| pages.updated_at      | Lase updated time of the page      |
+| pages.updated_at      | Last updated time of the page      |
 | pages.transaction_id      | See caching section below on the use of transaction_id    |
 | pages.blocks      | An array of blocks under the page      |
 | pages.blocks.uid      | The uid of the block (unique under the graph)      |
 | pages.blocks.content      | The content of the block  |
-| pages.blocks.collapse      | Wether the block is collapsed (useful in outliner pages) |
+| pages.blocks.collapse      | whether the block is collapsed (useful in outliner pages) |
 | pages.blocks.blocks      | Children blocks (This is recursive) |
 
 ### Smart Contract
