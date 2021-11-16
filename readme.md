@@ -135,7 +135,7 @@ Also, in order for the network to gain traction, we also need to incentivize ear
 - After this, until 100000 User Actions, the graph creator gets 10 KNOW Coins and the user gets 2 KNOW Coins
 - And then onwards, thegraph creator gets 5 KNOW Coins and the user gets 1 KNOW Coins
 
-My hope is that, as the network grows, the Coins would become more valuable, which in turn would lead to result more people contributing to the decentralised knowledge graph network. Its evident that the max value of the coin will never be greater than the transaction fees on the polygon network.
+My hope is that, as the network grows, the Coins would become more valuable, which in turn would lead to result more people contributing to the decentralised knowledge graph network. Its evident that the max value of the coin every 6 coins will never be greater than the transaction fees on the polygon network.
 
 Tokens also help in establishing social proof for the usefulness of the graph.
 
