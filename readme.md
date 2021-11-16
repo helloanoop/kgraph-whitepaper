@@ -149,7 +149,7 @@ In the web3 ecosystem, Brendon Eich (the creator of javascript) and the Brave Te
 
 I think kgraph (if the network takes off) and Brave would be a great match. Along with KNOW coins the creators could then conditionally enable ads, thus creating more value for everyone. Isn't that what capitalism is all about.
 
- I would imagine if we can provide a layout section where we could somehow access and display brave ads. This of course will be entirely opt-in for the kgraph creators. Only those who want to show ads in their kgraph can opt in. It would also be possible to allow the kgraph creators to specify which ads they specifically are willing to display. This could be based of a unique advertiser id which is maintained on the blockchain (writing a smart contract for decentralised ad publisher lookup registry should be pretty straightforward)
+I would imagine if we can provide a layout section where we could somehow access and display brave ads. This of course will be entirely opt-in for the kgraph creators. Only those who want to show ads in their kgraph can opt in. It would also be possible to allow the kgraph creators to specify which ads they specifically are willing to display. This could be based of a unique advertiser id which is maintained on the blockchain (writing a smart contract for decentralised ad publisher lookup registry should be pretty straightforward)
  
 ### Projects
 Here are the list of projects that will be written for kgraph. We plan to open source a lot off existing code that we have used for Notebase.
