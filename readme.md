@@ -50,6 +50,19 @@ Here is how the graph metadata would look like.
 }]
 ```
 
+| Key      | Description |
+| ----------- | ----------- |
+| user      | The name of the user. (unique)       |
+| address   | The eth account address of the user        |
+| graphs   | The graphs belongining to the user        |
+| graphs.name   | The name of the graph (unique under user)       |
+| graphs.location   | Where the graph is hosted (can be Github / IPFS / any cloud provider)        |
+| graphs.topic   | An arry of topics of the graph       |
+| graphs.stars   | Arryd of eth addresses of the users who have starred the graph     |
+| graphs.likes   | An array containing likes of the pages in thr graph    |
+| graphs.likes.uid   | uid of the page being liked     |
+| graphs.likes.address   | eth address of the user who liked the page in the graph    |
+
 ### Graph Data Structure
 Each graph has a set of pages, and each page has a title with a set of blocks, and each block has a content and contain more blocks. The graph has a version attribute. This helps us to bring improvements in the graph in the future.
 
@@ -81,6 +94,26 @@ Each graph has a set of pages, and each page has a title with a set of blocks, a
   }]
 }
 ```
+
+| Key      | Description |
+| ----------- | ----------- |
+| version      | The version of the kgraph data model       |
+| description      | The kgraph description       |
+| topics      | The kgraph topics      |
+| pages      | The pages in the kgraph      |
+| pages.uid      | The uid of the page (unique under the graph)      |
+| pages.title      | The page title)      |
+| pages.icon      | The page icon (unicode emoji or url))      |
+| pages.cover      | The page cover url     |
+| pages.outline      | Wether the page is an outliner)    |
+| pages.created_at      | Creation time of the page     |
+| pages.updated_at      | Lase updated time of the page      |
+| pages.transaction_id      | See caching section below on the use of transaction_id    |
+| pages.blocks      | An array of blocks under the page      |
+| pages.blocks.uid      | The uid of the block (unique under the graph)      |
+| pages.blocks.content      | The content of the block  |
+| pages.blocks.collapse      | Wether the block is collapsed (useful in outliner pages) |
+| pages.blocks.blocks      | Children blocks (This is recursive) |
 
 ### Smart Contract
 The kgraph will be deployed as a smart contract on the polygon network (for scalability). Anyone can create their usernames and add knowledge graphs by executing the smart contract.
