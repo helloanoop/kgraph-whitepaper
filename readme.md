@@ -145,7 +145,7 @@ kgraph would not to scale directly on ethereum. The plan is to use a sidechain s
 ### Ads
 I don't believe ads are inherently bad. Its a grey area. No ads would mean an end to the careers of youtubers, instagram influeners et all. Ads help small entrepreneurs to reach a global audience. On the other end, the ad business incentivizes companies to start hoarding user data and track and profile them, and then cambridge analytica happens.
 
-In the web2 ecosystem, Brendon Eich (the creator of javascript) and the Brave Team are working on BAT (Basic Attention Token), which is an attempt to incentivize the 3 parties involved in an ad transaction. The Ad Publisher, The Creator (on whose blog the ad is being viewed), and the User (the one who is paying attention to the ad). The tracking and profiling happens within the browser and no data gets uploaded to cloud. This is a way better ad model than the ones that we have today.
+In the web3 ecosystem, Brendon Eich (the creator of javascript) and the Brave Team are working on BAT (Basic Attention Token), which is an attempt to incentivize the 3 parties involved in an ad transaction. The Ad Publisher, The Creator (on whose blog the ad is being viewed), and the User (the one who is paying attention to the ad). The tracking and profiling happens within the browser and no data gets uploaded to cloud. This is a way better ad model than the ones that we have today.
 
 I think kgraph (if the network takes off) and Brave would be a great match. Along with KNOW coins the creators could then conditionally enable ads, thus creating more value for everyone. Isn't that what capitalism is all about.
 
